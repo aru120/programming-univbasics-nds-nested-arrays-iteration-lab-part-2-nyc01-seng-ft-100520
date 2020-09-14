@@ -1,4 +1,4 @@
-
+src = [[1,4,2,5,3],[2,3,1,2]]
 
 def find_min_in_nested_arrays(src)
 
@@ -23,4 +23,7 @@ end
 newArr
 
 end
+
+find_min_in_nested_arrays(src)
+
 
