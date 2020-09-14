@@ -13,10 +13,10 @@ while i < src.count do
     if src[i][j] < low
       low = src[i][j]
     end
-     j+=1
+    j+=1
   end
-
- newArr << low
+  puts j
+  newArr << low
   i+=1
 end
 newArr
